@@ -40,11 +40,11 @@ Git provides tools like `revert` and `reset` for undoing changes. They serve dif
 
 Integrating changes from one branch into another is a crucial part of collaborative development. Two common methods for this are `rebase` and `merge`.
 
-### Git Rebase
+**Git Rebase**
 
 `git rebase` allows you to incorporate the changes from one branch onto another by moving, combining, or omitting commits. This creates a linear history, making it easier to follow the progression of the codebase.
 
-### Git Merge
+**Git Merge**
 
 `git merge` combines the changes from one branch into another, creating a new commit that represents the integration. This maintains a more branching history, showing the distinct lines of development.
 
