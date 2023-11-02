@@ -16,11 +16,11 @@ Git is a powerful version control system that plays a crucial role in the DevOps
 
 One of the most powerful features of Git is its branching system. Branching allows multiple lines of development to coexist in parallel. Each branch represents a different version of the code, enabling teams to work on separate features or fixes simultaneously without interfering with each other's work.
 
-### Creating a Branch
+**Creating a Branch**
 
 To create a new branch, simply use the command `git branch branch_name`. This creates a new pointer to the same commit as the branch you're currently on.
 
-### Switching Between Branches
+**Switching Between Branches**
 
 You can switch between branches using `git checkout branch_name`. This updates your working directory to reflect the selected branch's state.
 
@@ -28,11 +28,11 @@ You can switch between branches using `git checkout branch_name`. This updates y
 
 Git provides tools like `revert` and `reset` for undoing changes. They serve different purposes and should be used based on the specific requirements of your workflow.
 
-### Git Revert
+**Git Revert**
 
 `git revert` creates a new commit that undoes the changes made in a previous commit. This is a safe way to correct mistakes without altering the commit history.
 
-### Git Reset
+**Git Reset**
 
 `git reset` allows you to reset your branch to a specific commit, effectively erasing any commits made after it. This can be useful in situations where you want to rework or discard a series of commits.
 
@@ -50,9 +50,9 @@ Integrating changes from one branch into another is a crucial part of collaborat
 
 ## Hands-On Practice
 
-## Task 1: Adding a Text File and Making Commits
+### Task 1: Adding a Text File and Making Commits
 
-### Step 1: Create a New Branch and Add version01.txt
+**Step 1: Create a New Branch and Add version01.txt**
 
 Open your terminal and navigate to the Devops/Git directory. Then, execute the following commands:
 
@@ -62,20 +62,20 @@ git checkout -b dev
 echo "This is first feature of our application" > version01.txt
 ```
 
-### Step 2: Committing Changes in dev Branch
+**Step 2: Committing Changes in dev Branch**
 
 ```plaintext
 git add version01.txt
 git commit -m "Added new feature"
 ```
 
-### Step 3: Pushing Changes to Remote Repository
+**Step 3: Pushing Changes to Remote Repository**
 
 ```plaintext
 git push origin dev
 ```
 
-### Step 4: Adding Additional Commits in dev Branch
+**Step 4: Adding Additional Commits in dev Branch**
 
 ```plaintext
 echo "This is the bug fix in development branch" >> version01.txt
@@ -91,7 +91,7 @@ git add version01.txt
 git commit -m "Added feature4 in development branch"
 ```
 
-### Step 5: Restoring version01.txt to a Previous Version
+**Step 5: Restoring version01.txt to a Previous Version**
 
 You can use either `git revert` or `git reset` to achieve this. Let's use `git reset` in this example.
 
@@ -103,9 +103,9 @@ git reset --hard <commit-hash>
 git push -f origin dev
 ```
 
-## Task 2: Branching, Merging, and Rebase
+### Task 2: Branching, Merging, and Rebase
 
-### Step 1: Creating Additional Branches
+**Step 1: Creating Additional Branches**
 
 ```plaintext
 git checkout -b feature1
@@ -115,7 +115,7 @@ git checkout -b feature2
 # Make changes and commit
 ```
 
-### Step 2: Merging dev Branch into master
+**Step 2: Merging dev Branch into master**
 
 ```plaintext
 git checkout master
@@ -123,7 +123,7 @@ git merge dev
 git push origin master
 ```
 
-### Step 3: Using Git Rebase
+**Step 3: Using Git Rebase**
 
 ```plaintext
 git checkout feature1
