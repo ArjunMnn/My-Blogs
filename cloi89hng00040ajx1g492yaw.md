@@ -94,7 +94,7 @@ git checkout -b new-feature
 # For example, edit or add files in your working directory
 ```
 
-## Step 2: Using Git Stash for Temporary Storage
+**Step 2: Using Git Stash for Temporary Storage**
 
 ```plaintext
 # Suppose you need to switch branches without committing changes
@@ -104,7 +104,7 @@ git stash
 
 Now you can safely switch branches.
 
-## Step 3: Switching Branches and Making Additional Changes
+**Step 3: Switching Branches and Making Additional Changes**
 
 ```plaintext
 # Switch to another branch (e.g., 'dev')
@@ -116,7 +116,7 @@ git add .
 git commit -m "Made changes in dev branch"
 ```
 
-## Step 4: Bringing Stashed Changes Back
+**Step 4: Bringing Stashed Changes Back**
 
 ```plaintext
 # Return to your original branch ('new-feature')
