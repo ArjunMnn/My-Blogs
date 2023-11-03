@@ -128,7 +128,7 @@ git stash pop
 
 Now, your original changes are applied on top of the new commits made in the 'dev' branch.
 
-## Task-02: Working with Commits and Branches
+### Task-02: Working with Commits and Branches
 
 **Step 1: Adding New Features in Development Branch**
 
