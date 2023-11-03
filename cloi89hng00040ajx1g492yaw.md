@@ -82,6 +82,8 @@ Merge conflicts occur when Git is unable to automatically merge changes from dif
 
 ## Hands-On Practice
 
+### Task-01: Branching, Stashing, and Applying Changes
+
 **Step 1: Creating a New Branch and Making Changes**
 
 ```plaintext
@@ -126,7 +128,7 @@ git stash pop
 
 Now, your original changes are applied on top of the new commits made in the 'dev' branch.
 
-# Task-02: Working with Commits and Branches
+## Task-02: Working with Commits and Branches
 
 **Step 1: Adding New Features in Development Branch**
 
