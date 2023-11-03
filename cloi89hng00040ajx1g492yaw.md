@@ -10,7 +10,7 @@ tags: software-development, linux, github, git, devops
 
 ## Introduction
 
-Git and GitHub are indispensable tools for DevOps engineers, enabling them to manage code repositories efficiently and collaborate seamlessly. In this blog post, we'll delve into some advanced Git concepts that are particularly relevant for DevOps professionals: `git stash`, `cherry pick`, and resolving conflicts. These techniques will help you streamline your workflow, resolve tricky situations, and maintain a clean codebase.
+Git and GitHub are indispensable tools for DevOps engineers, enabling them to manage code repositories efficiently and collaborate seamlessly. In this blog post, we'll delve into some advanced Git concepts that are particularly relevant for DevOps professionals: `git stash`, `cherry-pick`, and resolving conflicts. These techniques will help you streamline your workflow, resolve tricky situations, and maintain a clean codebase.
 
 ## Git Stash: Managing Temporary Changes
 
@@ -130,7 +130,7 @@ Now, your original changes are applied on top of the new commits made in the 'de
 
 # Task-02: Working with Commits and Branches
 
-## Step 1: Adding New Features in Development Branch
+**Step 1: Adding New Features in Development Branch**
 
 ```plaintext
 # Assuming you're in the 'development' branch
@@ -150,9 +150,7 @@ git commit -m "Feature2 completed"
 
 These commits will be reflected in the 'development' branch.
 
-## Step 2: Rebasing in Productio
-
-## n Branch
+**Step 2: Rebasing in Production Branch**
 
 ```plaintext
 # Create a new branch from 'master' called 'production'
