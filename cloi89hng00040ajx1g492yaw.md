@@ -82,8 +82,6 @@ Merge conflicts occur when Git is unable to automatically merge changes from dif
 
 ## Hands-On Practice
 
-### Task-01: Branching, Stashing, and Applying Changes
-
 **Step 1: Creating a New Branch and Making Changes**
 
 ```plaintext
