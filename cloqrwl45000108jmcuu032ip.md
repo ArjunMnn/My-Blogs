@@ -14,23 +14,23 @@ In the world of DevOps, efficiency, consistency, and scalability are paramount. 
 
 # Docker Features 🚀
 
-### 1\. **Containerization** 🔧
+**1\. Containerization 🔧**
 
 Docker packages applications and their dependencies into isolated containers, ensuring consistency across different environments.
 
-### 2\. **Portability** 🌐
+**2\. Portability 🌐**
 
 Docker containers are highly portable, enabling seamless movement between development, testing, and production environments.
 
-### 3\. **Efficiency** ⚡
+**3\. Efficiency ⚡**
 
 Docker's lightweight containers start quickly, reduce resource overhead, and facilitate efficient scaling.
 
-### 4\. **Orchestration** 🎵
+**4\. Orchestration 🎵**
 
 Docker integrates with orchestration tools like Kubernetes and Docker Swarm for efficient management and scaling of containers in clusters.
 
-### 5\. **Security** 🔐
+**5\. Security 🔐**
 
 Docker provides robust security features, including container isolation and image scanning, to enhance application security.
 
