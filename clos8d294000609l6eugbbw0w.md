@@ -18,7 +18,7 @@ DevOps engineers play a pivotal role in enhancing the efficiency and reliability
     
 2. Launch an EC2 instance, choosing an Amazon Machine Image (AMI) based on your preference (e.g., Amazon Linux).
     
-3. Configure the instance, set up security groups to allow inbound traffic on ports 22 (SSH) and 8000 (Django application).
+3. Configure the instance, set up security groups to allow inbound traffic on ports 22 (SSH) and 8001 (Django application).
     
 4. Launch the instance and download the private key.
     
