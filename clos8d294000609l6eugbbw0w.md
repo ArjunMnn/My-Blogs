@@ -43,7 +43,7 @@ cd django-todo
 
 ## Step 3: Create a Dockerfile for the Django Todo App 🐍
 
-The first step is to create a Dockerfile that defines the environment for our web application. For this example, let's consider a Node.js application. Create a file named `Dockerfile` with the following content:
+The next step is to craft a Dockerfile that defines the environment for our Django Todo application. Create a file named `Dockerfile` with the following content:
 
 ```bash
 FROM python:3
