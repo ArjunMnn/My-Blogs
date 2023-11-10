@@ -22,6 +22,12 @@ DevOps engineers play a pivotal role in enhancing the efficiency and reliability
     
 4. Launch the instance and download the private key.
     
+5. Connect to the instance using SSH:
+    
+    ```bash
+    ssh -i /path/to/private-key.pem ec2-user@your-instance-ip
+    ```
+    
 
 ## Step 2: Clone the Django Todo App from GitHub 🔄
 
