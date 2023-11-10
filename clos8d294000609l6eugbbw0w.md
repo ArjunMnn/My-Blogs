@@ -8,7 +8,7 @@ tags: software-development, linux, docker, devops, software-engineering
 
 ---
 
-# Introduction
+## Introduction
 
 DevOps engineers play a pivotal role in enhancing the efficiency and reliability of software development and deployment processes. Docker, a containerization platform, has emerged as an indispensable tool in the DevOps toolkit. In this blog post, we will guide you through a Docker project tailored for DevOps engineers. This project involves creating a Dockerfile for a Django-based Todo application, building the Docker image, running the container, verifying the application's functionality, and pushing the image to a repository.
 
@@ -94,7 +94,7 @@ docker push USERNAME/todo-app
 
 Now, your Docker image is available on Docker Hub and can be pulled by others for deployment.
 
-# Conclusion
+## Conclusion
 
 In conclusion, this Docker project for DevOps engineers guides you through the process of containerizing a Django Todo application. By creating a Dockerfile, building an image, running a container, and pushing the image to a repository, you ensure consistency and reproducibility in deploying your Django applications across different environments. 🌐
 
