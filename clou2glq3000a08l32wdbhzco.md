@@ -45,7 +45,7 @@ This example sets up an Nginx web server and a PostgreSQL database. The `docker-
 
 In the previous step, we created a basic `docker-compose.yml` file with two services - a web server (`nginx`) and a database (`postgres`). Now, let's enhance this configuration by exploring service links and environment variables.
 
-#### Service Links
+**Service Links**
 
 Service links allow one service to communicate with another. Let's modify our `docker-compose.yml` file to establish a link between the web service and the database service.
 
@@ -66,7 +66,7 @@ services:
 
 In this example, the `web` service now has a `links` section, specifying that it's linked to the `db` service. This allows the `web` service to communicate with the `db` service by using the hostname `db`.
 
-#### Environment Variables
+**Environment Variables**
 
 Environment variables in Docker Compose enable you to configure services with dynamic values. Let's add an environment variable to the `web` service, specifying the welcome message.
 
