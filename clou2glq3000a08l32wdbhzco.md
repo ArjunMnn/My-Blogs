@@ -36,7 +36,7 @@ services:
   db:
     image: postgres:latest
     environment:
-      POSTGRES_PASSWORD: example
+      POSTGRES_PASSWORD: test@123
 ```
 
 This example sets up an Nginx web server and a PostgreSQL database. The `docker-compose up` command will start both containers.
