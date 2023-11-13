@@ -4,6 +4,7 @@ datePublished: Mon Nov 13 2023 07:45:12 GMT+0000 (Coordinated Universal Time)
 cuid: clowlnlch001l08kx1v9644cc
 slug: deploying-a-two-tier-flask-app-with-docker-compose
 canonical: https://arjunmenon.hashnode.dev/day-19-docker-for-devops-engineers-part-3
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699861894449/1810ab8c-e104-4a1d-bc47-7b61817049e0.png
 tags: cloud, linux, docker, aws, devops
 
 ---
