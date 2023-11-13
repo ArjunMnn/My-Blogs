@@ -178,6 +178,6 @@ docker-compose down
 
 This concludes our journey in deploying a two-tier Flask app using both individual Docker commands and the efficiency of Docker Compose. Choose the approach that best suits your needs and workflow.
 
-## Conclusion🎉
+# Conclusion🎉
 
 Congratulations! You have successfully deployed a two-tier Flask app with a MySQL database using Docker. This tutorial covered essential DevOps practices, including Docker volumes and networks, ensuring seamless container orchestration and data persistence. Feel free to explore and extend this project based on your requirements. Happy coding!
