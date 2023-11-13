@@ -163,6 +163,8 @@ With the `docker-compose.yml` file in place, deploying the entire stack becomes 
 docker-compose up -d
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699860804558/991ecec0-9cab-4875-aaec-8dd6c4554940.png align="center")
+
 Docker Compose will orchestrate the deployment of both the MySQL and Flask app containers, ensuring seamless communication between them. This single command replaces the manual execution of each Docker command we used earlier.
 
 ### Additional Commands
