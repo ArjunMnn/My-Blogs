@@ -4,6 +4,7 @@ datePublished: Mon Nov 13 2023 06:07:43 GMT+0000 (Coordinated Universal Time)
 cuid: clowi685q000209js7krc3z2l
 slug: dockerizing-and-deploying-a-django-to-do-app-on-aws
 canonical: https://arjunmenon.hashnode.dev/day-18-docker-for-devops-engineers-part-2
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699861194285/88635380-72dd-47fc-af11-91a94795118b.png
 
 ---
 
