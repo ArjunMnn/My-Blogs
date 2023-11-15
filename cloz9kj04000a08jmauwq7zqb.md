@@ -3,6 +3,7 @@ title: "Day 21: Important Docker Interview Questions"
 datePublished: Wed Nov 15 2023 04:30:12 GMT+0000 (Coordinated Universal Time)
 cuid: cloz9kj04000a08jmauwq7zqb
 slug: day-21-important-docker-interview-questions
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1700022854214/2c44d9bb-0efa-4717-990a-295c8337f713.png
 tags: software-development, linux, docker, devops, software-engineering
 
 ---
