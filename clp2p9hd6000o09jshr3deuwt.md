@@ -22,6 +22,13 @@ In Jenkins, a **build job** is a task that takes your source code, compiles it, 
 
 **Jenkins Freestyle Projects** are user-friendly and flexible, making them an excellent starting point for CI/CD beginners. These projects allow you to configure build jobs without needing extensive scripting.
 
+For the tasks that follow, I have used the below projects:
+
+1. [Dockerizing a Django To-Do App on AWS](https://arjunmenon.hashnode.dev/dockerizing-and-deploying-a-django-to-do-app-on-aws)
+    
+2. [Deploying a Two-Tier Flask App with Docker-Compose](https://arjunmenon.hashnode.dev/deploying-a-two-tier-flask-app-with-docker-compose)
+    
+
 ### Task-01: Building and Running Docker Containers 🐳
 
 #### Step 1: Create an Agent for Your App 🕵️‍♂️
