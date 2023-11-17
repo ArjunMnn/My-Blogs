@@ -10,14 +10,14 @@ tags: cloud, docker, aws, devops, jenkins
 
 In the thrilling realm of DevOps, automation is the hero we all need to streamline our development and deployment adventures. Today, we embark on a quest to automate the deployment of a Docker container, using the epic Django-based Todo application as our quest item, with Jenkins Freestyle Project as our trusty sidekick. 🌐🐍🕹️
 
-**Prerequisites:** 🛠️
+# **Prerequisites**🛠️
 
 1. Docker installed on your machine.
     
 2. An AWS EC2 instance configured with Docker and your Django Todo application (as outlined in [this project](https://arjunmenon.hashnode.dev/dockerizing-and-deploying-a-django-to-do-app-on-aws)).
     
 
-**Project Overview:** 📝
+# **Project Overview**📝
 
 In our previous escapade, we manually set up and deployed a Django Todo application within a Docker container on an AWS EC2 instance.
 
@@ -76,6 +76,8 @@ Jenkins, our loyal companion, will now execute the specified build steps, automa
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700239281251/28441d05-23a3-42eb-b2e2-766fd78fee2c.jpeg align="center")
 
-**Conclusion:** 🎉 In this tutorial, we automated the deployment of a Docker container for our Django Todo application using Jenkins Freestyle Project. This streamlined approach enhances efficiency and ensures consistency in your deployment process. Remember, this automation is built upon the manual setup explained in Project 1.
+# **Conclusion**🎉
+
+In this tutorial, we automated the deployment of a Docker container for our Django Todo application using Jenkins Freestyle Project. This streamlined approach enhances efficiency and ensures consistency in your deployment process. Remember, this automation is built upon the manual setup explained in Project 1.
 
 Feel the power of automation, adapt this tutorial to fit your specific project needs, and share your automated Docker deployment success with Jenkins! 🤖✨
