@@ -3,6 +3,7 @@ title: "Deploying a Django To-do App Using Jenkins Freestyle Project"
 datePublished: Fri Nov 17 2023 16:45:55 GMT+0000 (Coordinated Universal Time)
 cuid: clp2uqdio000b08ju0x755woc
 slug: deploying-a-django-to-do-app-using-jenkins-freestyle-project
+canonical: https://arjunmenon.hashnode.dev/day-23-jenkins-freestyle-project-for-devops-engineers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1700234907919/7970ffe9-604c-4281-bbba-dd6b895fc584.png
 tags: cloud, docker, aws, devops, jenkins
 
