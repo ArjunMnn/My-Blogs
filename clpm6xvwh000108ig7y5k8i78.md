@@ -1,8 +1,8 @@
 ---
-title: "Day 34: Mastering ConfigMaps and Secrets in Kubernetes"
+title: "Day 35: Mastering ConfigMaps and Secrets in Kubernetes"
 datePublished: Fri Dec 01 2023 05:35:18 GMT+0000 (Coordinated Universal Time)
 cuid: clpm6xvwh000108ig7y5k8i78
-slug: day-34-mastering-configmaps-and-secrets-in-kubernetes
+slug: day-35-mastering-configmaps-and-secrets-in-kubernetes
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1701408887342/64121ce2-9b25-4f12-8904-6ebd9e1dc0fe.png
 tags: software-development, kubernetes, devops, software-engineering
 
