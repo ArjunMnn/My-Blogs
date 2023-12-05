@@ -1,5 +1,6 @@
 ---
 title: "Day 3: S3, AWS CLI, and IAM"
+seoDescription: "Day 3 of the AWS Challenge delves into securing data with private S3 buckets, configuring AWSCLI on Ubuntu for command-line efficiency, and mastering IAM."
 datePublished: Tue Dec 05 2023 06:39:24 GMT+0000 (Coordinated Universal Time)
 cuid: clpryzpr0000409jte4fkdvtz
 slug: day-3-s3-aws-cli-and-iam
