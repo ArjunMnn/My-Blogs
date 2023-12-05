@@ -44,22 +44,22 @@ Welcome to Day 4 of our AWS mastery journey! Today, we're embarking on an exciti
 3. In your EC2 instance, run the following commands:
     
 4. ```plaintext
-    # Install mysql client
-    sudo apt update
-    sudo apt install mysql-client
-    
-    # Connecting your ec2 instance to the rds database.
-    mysql -u admin -h <endpoint> -P 3306 -p
+     # Install mysql client
+     sudo apt update
+     sudo apt install mysql-client
+     
+     # Connecting your ec2 instance to the rds database.
+     mysql -u admin -h <endpoint> -P 3306 -p
     ```
     
 5. MySQL console will open. In the MySQL console, run the following:
     
 6. ```plaintext
-    create database aws;
-    CREATE TABLE messages (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        message TEXT
-    );
+     create database aws;
+     CREATE TABLE messages (
+         id INT AUTO_INCREMENT PRIMARY KEY,
+         message TEXT
+     );
     ```
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701784577358/5475c83d-8da7-429c-b555-4a335c73026f.png align="center")
@@ -70,7 +70,7 @@ Welcome to Day 4 of our AWS mastery journey! Today, we're embarking on an exciti
 1. **Running the docker container:** Run the docker container we created before with MySQL environment variables as below
     
 2. ```plaintext
-    sudo docker run -d -p 5000:5000 -e MYSQL_HOST=mysql -e MYSQL_USER=admin -e MYSQL_PASSWORD=admin123 -e MYSQL_DB=aws two-tier
+     sudo docker run -d -p 5000:5000 -e MYSQL_HOST=<endpoint> -e MYSQL_USER=admin -e MYSQL_PASSWORD=admin123 -e MYSQL_DB=aws two-tier
     ```
     
 3. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701784753705/4535bd75-911b-4039-8bca-24ef9ca334ac.png align="center")
