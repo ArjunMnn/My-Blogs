@@ -4,6 +4,7 @@ seoDescription: "Learn the step-by-step process of setting up VPC peering in AWS
 datePublished: Thu Dec 07 2023 07:39:31 GMT+0000 (Coordinated Universal Time)
 cuid: clpuw0q5s000d08id79w8anql
 slug: a-beginners-guide-to-vpc-peering-in-aws-connecting-instances-across-virtual-networks
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1701937506461/41857795-b8e7-4eda-9965-01678829475e.png
 tags: cloud, software-development, aws, security, devops
 
 ---
