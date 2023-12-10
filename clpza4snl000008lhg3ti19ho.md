@@ -3,7 +3,7 @@ title: "Building a Serverless Node.js API with AWS and Serverless Framework"
 datePublished: Sun Dec 10 2023 09:25:40 GMT+0000 (Coordinated Universal Time)
 cuid: clpza4snl000008lhg3ti19ho
 slug: building-a-serverless-nodejs-api-with-aws-and-serverless-framework
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1702201321503/501f6766-c81d-438b-944c-19a21c5cc848.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1702201947988/cbf74101-9eba-47c1-a818-8bdd9558970a.png
 tags: cloud, software-development, aws, cloud-computing, serverless
 
 ---
@@ -14,7 +14,7 @@ Welcome to this comprehensive tutorial on creating a serverless Node.js API usin
 
 Before we start, make sure you have the following:
 
-1. [Sign up](https://www.serverless.com/) on [serverless.com](https://www.serverless.com/).
+1. Sign up on [serverless.com](https://www.serverless.com/).
     
 2. Node.js and npm installed. You can download them from [nodejs.org](https://www.serverless.com/).
     
@@ -51,7 +51,7 @@ npm install
 
 Run the following command to configure your AWS credentials:
 
-```yaml
+```bash
 serverless config credentials --provider aws --key YOUR_ACCESS_KEY --secret YOUR_SECRET_KEY
 ```
 
