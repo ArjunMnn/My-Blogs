@@ -1,5 +1,5 @@
 ---
-title: "Building a Serverless Node.js API with AWS and Serverless Framework"
+title: "Day 7: Building a Serverless Node.js API with AWS and Serverless Framework"
 datePublished: Sun Dec 10 2023 09:25:40 GMT+0000 (Coordinated Universal Time)
 cuid: clpza4snl000008lhg3ti19ho
 slug: building-a-serverless-nodejs-api-with-aws-and-serverless-framework
