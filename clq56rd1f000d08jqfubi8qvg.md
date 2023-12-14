@@ -1,101 +1,154 @@
 ---
-title: "Day 38: Getting Started with AWS Basics"
+title: "Day 38 & 39: Getting Started with AWS Basics"
 seoDescription: "Set up IAM users, launch Linux instances, and build a DevOps Avengers team. Strengthen your foundation for DevOps success."
 datePublished: Thu Dec 14 2023 12:37:51 GMT+0000 (Coordinated Universal Time)
 cuid: clq56rd1f000d08jqfubi8qvg
-slug: day-38-getting-started-with-aws-basics
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1702557309507/5cfdb5d1-afc9-4060-8b5f-8d73eeb4ff3b.png
+slug: day-38-39-getting-started-with-aws-basics
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1702562910041/e8ad76ef-8560-4610-bdf1-759c7b24acb8.png
 tags: cloud, software-development, aws, software-engineering, 90daysofdevops
 
 ---
 
 ## Introduction
 
-Welcome to Day 38 of our Journey to DevOps Mastery! Today, we embark on tasks that will deepen your understanding of Identity and Access Management (IAM) in AWS and strengthen your ability to assemble and manage a DevOps team.
+Welcome to Day 38 and Day 39 of your AWS learning journey! In this tutorial, we'll guide you through hands-on tasks to master Identity and Access Management (IAM), launch EC2 instances, set up Jenkins, and deploy Docker. Whether you're a beginner or looking to enhance your AWS skills, follow these step-by-step instructions for a comprehensive understanding.
 
-## Task 1: Setting Up IAM User and Launching Linux Instance
+---
 
-### Create IAM User with EC2 Access
+## Task 1: Empowering Your IAM User for EC2 Access
 
-Transitioning into Day 38 of our DevOps journey, let's start by setting up an IAM user to manage access to our AWS resources. Choose a username that aligns with your preferences and grant EC2 access to this user.
+### Step 1: Create an IAM User with EC2 Access
 
-1. Log in to your AWS Management Console.
+1. Navigate to the AWS Management Console.
     
-2. Navigate to IAM (Identity and Access Management).
+2. Open the IAM dashboard and click on "Users."
     
-3. Create a new user with the desired username.
+3. Click "Add user," enter a username, and select "Programmatic access."
     
-4. Attach the "AmazonEC2FullAccess" policy to grant EC2 access.
+4. Attach the "AmazonEC2FullAccess" policy.
     
-
-### Launch Linux Instance and Install Jenkins and Docker
-
-Now, let's leverage the IAM user we just created to launch a Linux instance and install Jenkins and Docker using a single Shell Script.
-
-1. Use the IAM user credentials to log in to the AWS EC2 Dashboard.
-    
-2. Launch a new instance, selecting a suitable Linux AMI.
-    
-3. Configure security groups and key pairs for secure access.
-    
-4. Once the instance is running, connect to it via SSH.
-    
-5. Create a Shell Script to install Jenkins and Docker.
-    
-6. ```bash
-    #!/bin/bash
-    
-    # Update and install Docker
-    sudo apt update -y
-    sudo apt install docker.io -y
-    
-    # Install Jenkins
-    sudo apt install openjdk-11-jdk -y
-    sudo wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
-    sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
-    sudo apt update -y
-    sudo apt install jenkins -y
-    
-    # Start Docker and Jenkins services
-    sudo systemctl start docker
-    sudo systemctl enable docker
-    sudo systemctl start jenkins
-    sudo systemctl enable jenkins
-    ```
-    
-7. Execute the script to set up your environment seamlessly.
+5. Review and create the user, noting the access key and secret key.
     
 
-## Task 2: Building Your DevOps Avengers Team
+### Step 2: Launch a Linux EC2 Instance with Jenkins and Docker
 
-### Creating DevOps IAM Users
+Create a Shell Script, e.g., [`setup.sh`](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html):
 
-Transitioning to the next task, let's assemble our DevOps Avengers team by creating three IAM users.
+```bash
+#!/bin/bash
 
-1. Return to the IAM Dashboard in AWS.
+# Install Jenkins
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+sudo yum install -y jenkins
+
+# Install Docker
+sudo amazon-linux-extras install docker
+sudo service docker start
+sudo usermod -aG docker ec2-user
+```
+
+Make the script executable and run it:
+
+```bash
+chmod +x setup.sh
+./setup.sh
+```
+
+This script installs Jenkins and Docker on your EC2 instance.
+
+---
+
+## Task 2: Assembling Your DevOps Avengers
+
+### Step 1: Create DevOps IAM Users
+
+1. Head to the IAM dashboard.
     
-2. Create three IAM users, naming them after your favorite Avengers.
+2. Create three users: DevOpsUser1, DevOpsUser2, and DevOpsUser3.
     
-3. Assign unique access credentials to each user.
+3. Attach policies such as "AmazonEC2FullAccess" to each user.
     
 
-### Assigning Users to DevOps Groups
+### Step 2: Group Users into DevOps Groups
 
-To streamline our DevOps operations, let's group these IAM users into a DevOps group and assign a custom IAM policy.
-
-1. Create a new IAM group named "DevOpsGroup."
+1. In the IAM dashboard, navigate to "Groups."
     
-2. Add the three DevOps Avengers users to this group.
+2. Create a group named "DevOpsGroup."
     
-3. Create a custom IAM policy granting access to necessary resources.
-    
-4. Attach the policy to the "DevOpsGroup."
+3. Add the three DevOps users to this group.
     
 
-Now, your DevOps Avengers team is ready to collaborate and conquer the DevOps landscape.
+---
+
+## Task 3: Launching Jenkins on EC2
+
+### Step 1: Launch an EC2 Instance with Jenkins
+
+1. Go to the EC2 dashboard.
+    
+2. Launch an instance with Amazon Linux 2 AMI.
+    
+3. In the user data section, add:
+    
+
+```bash
+#!/bin/bash
+sudo yum install -y jenkins
+sudo service jenkins start
+sudo chkconfig jenkins on
+```
+
+1. Complete the instance creation process.
+    
+
+### Step 2: Access Jenkins Page
+
+1. Once the instance is running, note its public IP address.
+    
+2. In your browser, enter `http://<your-instance-ip>:8080`.
+    
+3. Retrieve the Jenkins initial password from the instance:
+    
+
+```bash
+bash
+```
+
+```bash
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+
+1. Follow the on-screen instructions to set up Jenkins.
+    
+
+---
+
+## Task 4: Unraveling IAM Roles
+
+### Step 1: Understand IAM Roles
+
+Before creating IAM roles, let's delve into the concept of IAM Roles. IAM Roles are AWS Identity and Access Management entities that define a set of permissions for making AWS service requests. Unlike IAM users, roles do not have any credentials; instead, they rely on temporary security tokens.
+
+Roles are useful in scenarios such as cross-account access, temporary access for users or applications, and delegating permissions to AWS services.
+
+Read more about IAM Roles [here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html).
+
+### Step 2: Create IAM Roles
+
+1. In the IAM dashboard, navigate to "Roles."
+    
+2. Create three roles: DevOps-User, Test-User, and Admin.
+    
+3. Define the respective policies for each role.
+    
+
+---
 
 ## Conclusion
 
-Day 38 of our DevOps journey has empowered you to set up IAM users, launch Linux instances, and create a DevOps team worthy of the Avengers. By mastering these fundamental tasks, you've laid a robust foundation for your DevOps skills.
+Congratulations! You've successfully navigated through IAM, EC2, Jenkins, and Docker on AWS. These foundational skills will empower you in your cloud journey. As you continue exploring AWS, don't hesitate to experiment and adapt these learnings to real-world scenarios.
 
-As you reflect on today's achievements, remember that every step forward brings you closer to DevOps excellence. Tomorrow holds new challenges and opportunities, so stay committed to your learning journey.
+Follow me on [**LinkedIn**](https://www.linkedin.com/in/arjunmenon-devops/).
+
+Check out my [**GitHub**](https://github.com/ArjunMnn) profile.
