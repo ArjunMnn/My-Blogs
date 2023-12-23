@@ -72,20 +72,19 @@ Before you begin, make sure you have:
 
 1. Opt for "Upload your code" and upload the Dockerfile you've created. Here's an example Dockerfile:
     
-
-1. ```bash
-     FROM ubuntu:22.04
-    
-     RUN apt-get update
-     RUN apt-get install -y nginx zip curl
-    
-     RUN echo "daemon off;" >>/etc/nginx/nginx.conf
-     RUN curl -o /var/www/html/master.zip -L https://github.com/ArjunMnn/2048-game/archive/refs/heads/master.zip
-     RUN cd /var/www/html/ && unzip master.zip && mv 2048-game-master/* . && rm -rf 2048-game-master master.zip
-    
-     EXPOSE 80
-    
-     CMD ["/usr/sbin/nginx", "-c", "/etc/nginx/nginx.conf"]
+2. ```bash
+      FROM ubuntu:22.04
+     
+      RUN apt-get update
+      RUN apt-get install -y nginx zip curl
+     
+      RUN echo "daemon off;" >>/etc/nginx/nginx.conf
+      RUN curl -o /var/www/html/master.zip -L https://github.com/ArjunMnn/2048-game/archive/refs/heads/master.zip
+      RUN cd /var/www/html/ && unzip master.zip && mv 2048-game-master/* . && rm -rf 2048-game-master master.zip
+     
+      EXPOSE 80
+     
+      CMD ["/usr/sbin/nginx", "-c", "/etc/nginx/nginx.conf"]
     ```
     
 
@@ -98,8 +97,7 @@ Before you begin, make sure you have:
 
 ## Step 10: Configure Service Access
 
-1. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703313512248/aafaa6e5-b7be-48b5-8d0a-82ed807e1738.png?auto=compress,format&format=webp align="left")
-    
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703313512248/aafaa6e5-b7be-48b5-8d0a-82ed807e1738.png?auto=compress,format&format=webp align="left")
 
 ## Step 11: Review and Submit
 
