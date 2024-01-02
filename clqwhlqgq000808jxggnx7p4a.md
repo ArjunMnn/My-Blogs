@@ -3,7 +3,7 @@ title: "Day 62: Docker Provider in Terraform"
 datePublished: Tue Jan 02 2024 15:11:11 GMT+0000 (Coordinated Universal Time)
 cuid: clqwhlqgq000808jxggnx7p4a
 slug: day-62-docker-provider-in-terraform
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704208218551/85ddf5f9-db54-4ba4-aeec-df3c9a1f0854.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704208368031/92bcd9ed-3fea-4d5b-9973-36d6311243b1.png
 tags: cloud, docker, devops, terraform, 90daysofdevops
 
 ---
