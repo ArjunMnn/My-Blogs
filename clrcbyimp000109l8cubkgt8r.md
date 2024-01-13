@@ -3,6 +3,7 @@ title: "Deploying a Three-Tier Application with CI/CD using Jenkins, ReactJS, No
 datePublished: Sat Jan 13 2024 17:17:29 GMT+0000 (Coordinated Universal Time)
 cuid: clrcbyimp000109l8cubkgt8r
 slug: deploying-a-three-tier-application-with-cicd-using-jenkins-reactjs-nodejs-and-mongodb-on-kubernetes
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705166516019/26105c71-7045-4ce0-91a9-2a5aa7943280.png
 tags: cloud, software-development, aws, kubernetes, devops
 
 ---
