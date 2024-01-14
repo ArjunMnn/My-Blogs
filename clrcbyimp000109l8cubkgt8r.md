@@ -36,6 +36,8 @@ aws configure
 
 Launch an Ubuntu instance and SSH into it.
 
+> Use atleast t2.medium, because t2.micro would hang while running the build with Jenkins.
+
 ## Step 3: Install AWS CLI v2
 
 ```bash
