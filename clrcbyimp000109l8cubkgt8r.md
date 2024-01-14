@@ -277,3 +277,7 @@ eksctl delete cluster --name three-tier-cluster --region us-west-2
 ```
 
 This will delete the EKS cluster and associated resources.
+
+Follow me on [**LinkedIn**](https://www.linkedin.com/in/arjunmenon-devops/).
+
+Checkout my [**GitHub**](https://github.com/ArjunMnn) profile.
