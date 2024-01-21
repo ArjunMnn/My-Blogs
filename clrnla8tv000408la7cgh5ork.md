@@ -1,5 +1,5 @@
 ---
-title: "Day 75: Monitoring Docker Logs Using Grafana and Prometheus"
+title: "Day 75 & 76: Monitoring Docker Logs Using Grafana and Prometheus"
 datePublished: Sun Jan 21 2024 14:24:01 GMT+0000 (Coordinated Universal Time)
 cuid: clrnla8tv000408la7cgh5ork
 slug: day-75-monitoring-docker-logs-using-grafana-and-prometheus
