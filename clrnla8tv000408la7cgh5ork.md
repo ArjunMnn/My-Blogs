@@ -68,7 +68,7 @@ Restart Docker:
 sudo systemctl restart docker
 ```
 
-You should now see your docker metrics by going to `<instance_2_ip>:9323/metric.`
+You should now see your docker metrics by going to `<instance_2_ip>:9323/metrics.`
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705847008057/4fa954f7-e29c-4aea-a240-1fd110e3033e.png align="center")
 
