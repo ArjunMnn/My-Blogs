@@ -3,7 +3,7 @@ title: "Day 78: Creating a Billing Dashboard with Grafana Cloud and AWS CloudWat
 datePublished: Wed Jan 24 2024 16:47:34 GMT+0000 (Coordinated Universal Time)
 cuid: clrs0qfbs000308kwer4l20j8
 slug: day-78-creating-a-billing-dashboard-with-grafana-cloud-and-aws-cloudwatch
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706114815865/fdf35071-b824-429e-a51a-71864531e56d.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706115367110/02c10d46-d5ac-4f3d-a6be-1b7e39fa747d.png
 tags: cloud, software-development, aws, devops, 90daysofdevops
 
 ---
