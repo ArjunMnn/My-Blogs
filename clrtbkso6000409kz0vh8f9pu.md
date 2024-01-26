@@ -1,8 +1,8 @@
 ---
-title: "Day 80: Project 1"
+title: "Day 80 & 81: Jenkins CI/CD Pipeline to Deploy a Web Application"
 datePublished: Thu Jan 25 2024 14:38:54 GMT+0000 (Coordinated Universal Time)
 cuid: clrtbkso6000409kz0vh8f9pu
-slug: day-80-project-1
+slug: day-80-81-jenkins-cicd-pipeline-to-deploy-a-web-application
 canonical: https://arjunmenon.hashnode.dev/day-28-jenkins-agents
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706193472971/138049e8-97c8-4463-8ccb-fec9c8cba3dc.png
 tags: cloud, docker, github, devops, 90daysofdevops
