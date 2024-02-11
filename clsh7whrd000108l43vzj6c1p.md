@@ -130,3 +130,7 @@ jobs:
     
 
 Congratulations! You have successfully set up automated deployment of your static website to AWS S3 using GitHub Actions.
+
+Follow me on [**LinkedIn**](https://www.linkedin.com/in/arjunmenon-devops/).
+
+Checkout my [**GitHub**](https://github.com/ArjunMnn) profile.
