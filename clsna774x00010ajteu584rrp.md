@@ -153,4 +153,6 @@ kubectl apply -f service.yaml
 
 With the Kubernetes Deployment and Service set up, your Django Todo app should now be accessible through the specified port on the master server. You can access it using the public IP or DNS name of the master server.
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708005249722/949c1033-22ec-475e-a599-5e9332417975.png align="center")
+
 Congratulations! You have successfully deployed a Django app on a Kubernetes cluster using kubeadm.
